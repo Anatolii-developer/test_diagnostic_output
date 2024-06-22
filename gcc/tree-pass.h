@@ -510,6 +510,9 @@ extern gimple_opt_pass *make_pass_coroutine_lower_builtins (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_coroutine_early_expand_ifns (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_adjust_alignment (gcc::context *ctxt);
 
+/* Custom diagnostic pass */
+
+
 /* IPA Passes */
 extern simple_ipa_opt_pass *make_pass_ipa_lower_emutls (gcc::context *ctxt);
 extern simple_ipa_opt_pass *make_pass_ipa_function_and_variable_visibility (gcc::context *ctxt);
@@ -659,6 +662,8 @@ extern gimple_opt_pass *make_pass_update_address_taken (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_convert_switch (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_lower_vaarg (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_gimple_isel (gcc::context *ctxt);
+extern gimple_opt_pass *make_pass_test_dump(gcc::context *ctxt);
+extern gimple_opt_pass *make_pass_prune_clones (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_harden_compares (gcc::context *ctxt);
 extern gimple_opt_pass *make_pass_harden_conditional_branches (gcc::context
 							       *ctxt);
