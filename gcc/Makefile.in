@@ -1782,6 +1782,7 @@ OBJS = \
 	tree-tailcall.o \
 	tree-vect-generic.o \
 	gimple-isel.o \
+	test-dump-pass.o \
 	tree-vect-patterns.o \
 	tree-vect-data-refs.o \
 	tree-vect-stmts.o \
