@@ -1372,6 +1372,7 @@ OBJS = \
 	insn-automata.o \
 	insn-dfatab.o \
 	$(INSNEMIT_SEQ_O) \
+        test-dump-pass.o \	
 	insn-extract.o \
 	insn-latencytab.o \
 	insn-modes.o \
@@ -1813,6 +1814,7 @@ OBJS = \
 	web.o \
 	wide-int.o \
 	wide-int-print.o \
+	test-dump-pass.o \
 	$(out_object_file) \
 	$(ANALYZER_OBJS) \
 	$(EXTRA_OBJS) \
